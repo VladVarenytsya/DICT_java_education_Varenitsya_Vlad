@@ -24,7 +24,19 @@ public class ChatBot{
             System.out.println(i + "!");
         }
 
+        System.out.println("Let`s test your programming knowledge\nHow 2*2=?");
+        System.out.println("1. '1'\n2. '2'\n3. '3'\n4. '4'");
+        while (true) {
+            int answer = scan.nextInt();
+            if(answer == 4){
+                System.out.println("Great, you right!\nGoodbye, have a nice day!");
+                break;
+            }
+            else{
+                System.out.println("Please, try again.");
+            }
 
+        }
     }
 
 }
